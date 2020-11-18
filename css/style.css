@@ -1,0 +1,216 @@
+* {
+	margin:0px; padding:0px;
+}
+
+body { font-size:16px; color:#5E5E5E; font-family: 'Roboto', sans-serif;}
+
+
+h1 {font-size:22px; font-weight:400;  color: #252525; }
+h2 {font-size:18px; font-weight:400; color: #252525; }
+
+header {background:#0B132B;     padding: 20px 0px;}
+.slider_houzen_prop { padding:60px 0px;}
+
+.proprty_listing {
+    box-shadow: 2px 11px 12px #00000014;
+    padding: 0px;
+    border-radius: 6px;
+    margin: 20px 0px ;
+}
+
+.prop-detail {
+    padding: 30px 20px;
+}
+.prop-detail p { padding:0px; margin:0px;}
+
+
+.prop-image img {
+    width: 100%;
+    border-radius: 6px 6px 0px 0;
+}
+
+.btn-view {
+    background: #0B132B;
+    padding: 9px 30px;
+    color: #fff;
+    width: 150px;
+    display: block;
+    margin: 10px 0px;
+    border-radius: 4px; text-decoration:none;
+}
+
+.btn-view:hover { color:#fff; text-decoration:none; background:#031651;}
+
+.prop-detail h2 { font-size:20px; color:#252525;}
+
+.slider_houzen_prop .owl-nav button {
+  position: absolute;
+  top: 50%;
+  background-color: #000;
+  color: #fff;
+  margin: 0;
+  transition: all 0.3s ease-in-out;
+}
+
+.slider_houzen_prop .owl-nav button.owl-prev {
+    left: -50px;
+    background: #000!important;
+    width: 60px;
+    opacity: .5;
+    height: 70px;
+    border-radius: 4px;
+}
+
+.slider_houzen_prop .owl-nav button.owl-next {
+   right: -50px;
+    background: #000!important;
+    width: 60px;
+    height: 70px;
+    border-radius: 4px;
+	opacity: .5;
+}
+
+.slider_houzen_prop .owl-dots {
+  text-align: center;
+  padding-top: 15px;
+}
+.slider_houzen_prop .owl-dots button.owl-dot {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  display: inline-block;
+  background: #ccc;
+  margin: 0 3px;
+  border: 1px solid #ccc!important;
+}
+
+.slider_houzen_prop .owl-dots button.owl-dot.active {
+  background-color: #0B132B;
+}
+
+.slider_houzen_prop .owl-dots button.owl-dot:focus {
+  outline: none; 
+}
+
+.slider_houzen_prop .owl-nav button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(255, 255, 255, 0.38) !important;
+}
+
+.slider_houzen_prop span {
+    font-size: 50px;    
+    position: relative;
+    top: -5px;
+	color:#fff;
+}
+.slider_houzen_prop .owl-nav button:focus {
+    outline: none;
+}
+
+
+
+
+.listing_pagepanel { padding:60px 0px;}
+
+
+.listing_pagepanel .carousel-inner img {
+    width: 100%;
+    height: 100%
+}
+
+#custCarousel {padding:10px 0px;}
+
+#custCarousel .carousel-indicators {
+    position: static;
+    margin-top: 20px
+}
+
+#custCarousel .carousel-indicators>li {
+    width: 100px
+}
+
+#custCarousel .carousel-indicators li img {
+    display: block;
+    opacity: 0.5
+}
+
+#custCarousel .carousel-indicators li.active img {
+    opacity: 1
+}
+
+#custCarousel .carousel-indicators li:hover img {
+    opacity: 0.75
+}
+
+.listing_pagepanel .carousel-item img {
+    width: 100%
+}
+
+.listing_pagepanel .carousel-control-prev {
+    left: 0;
+    width: 60px;
+    height: 60px;
+    background: #000;
+    top: 160px;
+	opacity: .4;
+}
+
+.listing_pagepanel .carousel-control-next {
+    width: 60px;
+    height: 60px;
+    background: #000;
+    top: 160px;
+	right:0px;
+	opacity: .4;
+	}
+	
+.listing_pagepanel h2 { font-size:20px; color:#252525; margin:0px; line-height:19px;}	
+.listing_pagepanel h2 span {
+    font-size: 16px;
+    color: #707070;
+    margin: 0px;
+    font-weight: 300;
+	
+}
+
+.listing_pagepanel h3 { font-size:16px; color:#252525; margin:0px; line-height:19px;}	
+.status_button {
+    border: 1px solid #1A9A00;
+    color: #1A9A00;
+    padding: 5px 10px;
+    border-radius: 50px;
+    width: 125px;
+}
+
+.status_button a { color:#1A9A00; text-decoration:none;}
+.property_detailmmm {
+    margin: 20px 0px 0px;
+}
+
+.top_fillen { width:100%; float:left;}
+.top_fillen ul { margin:0px; padding:0px;}
+.top_fillen ul li {list-style:none; float:left; font-size:16px; margin:0px 3px 10px;}
+.top_fillen ul li a {color:#0B132B;}
+
+.rent_fill {
+    width: 100%;
+    float: left;
+    background: #fff;
+    border-radius: 50px;
+    box-shadow: 1px 0px 4px #c4c4c466;
+	margin:0px 0px 10px;
+}
+.rent_fill ul { margin:0px; padding:0px;}
+.rent_fill ul li { list-style:none; float:left; padding:5px 10px; text-align:center;}
+.rent_fill ul li a  { font-size:10px; color:#252525;}
+.rent_fill ul li.active { background:#fff; border-radius: 50px; border: 1px solid #ccc;}
+
+
+
+
+
+.property_detailmmm p  { margin:0px 0px 5px;}
+.list-pp { font-size: 35px; color:#252525;}
+.bdr-btm { border-bottom: 1px solid #E8E8E8; padding-bottom: 20px;}
